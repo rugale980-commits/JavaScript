@@ -1,0 +1,44 @@
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description   : Program to print 5 to 1 number
+//  Input         : Integer
+//  Output        : Integer
+//  Author        : Rahul Balasaheb Ugale
+//  Date          : 16/12/2025
+//
+////////////////////////////////////////////////////////////////////////////////
+
+function Display()
+{
+    let i = 0;
+    i = 5;
+    while (i >= 1)
+    {
+        console.log(i);
+        i--;
+    }
+} // End Function
+
+function main()
+{
+    Display();
+
+} // End main
+
+main();
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Testcases succesfully handle by the application
+//
+//  Input1 : 5
+//  Output :
+//           5
+//           4
+//           3
+//           2
+//           1
+//
+////////////////////////////////////////////////////////////////////////////////
